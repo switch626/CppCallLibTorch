@@ -13,7 +13,7 @@ int main(int argc, const char* argv[]) {
 	torch::jit::script::Module module;
 	try {
 		// Deserialize the ScriptModule from a file using torch::jit::load().
-		module = torch::jit::load(argv[1]);
+		module = torch::jit::load("F:\\Temp File\\libtorch-win-shared-with-deps-131\\libtorch\\test\\model.pt");
 		// Create a vector of inputs.
 		std::vector<torch::jit::IValue> inputs;
 		inputs.push_back(torch::ones({ 1, 3, 224, 224 }));
