@@ -2,7 +2,7 @@
 #include <opencv.hpp>
 #include <iostream>
 #include <memory>
-std::string image_path = "H:\\项目\\BGSS\\sortsout\\Progress\\recordLog\\pictures\\2019-12-01\\捕获.PNG";
+std::string image_path = "H:\\项目\\BGSS\\sortsout\\Progress\\recordLog\\pictures\\2019-12-03\\2019-12-03_193009.png";
 int main(int argc, const char* argv[]) {
 	/*if (argc != 2) {
 		std::cerr << "usage: example-app <path-to-exported-script-module>\n";
@@ -37,6 +37,22 @@ int main(int argc, const char* argv[]) {
 	system("pause");
 	std::cout << "ok\n";
 }
+/*
+0.01 *
+-9.8454 -66.8251 -20.5342 -65.0013 -31.0493
+[ Variable[CPUFloatType]{1,5} ]
+请按任意键继续. . .
+
+0.01 *
+-9.8454 -66.8251 -20.5342 -65.0013 -31.0493
+[ Variable[CPUFloatType]{1,5} ]
+请按任意键继续. . .
+
+0.01 *
+-2.9161 -84.5762 -15.0535 -80.4725 -25.2719
+[ Variable[CPUFloatType]{1,5} ]
+请按任意键继续. . .
+*/
 /*
 #include <torch/script.h> // One-stop header.
 #include <opencv2/opencv.hpp>
