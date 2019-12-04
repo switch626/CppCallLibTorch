@@ -69,7 +69,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>F:\tmp\new-libtorch\libtorch-win-shared-with-deps-debug-131-gpu\include;H:\项目\BGSS\sortsout\缺失的dll\opencv\2143\include\2413;H:\项目\BGSS\sortsout\缺失的dll\opencv\2143\include\2413\opencv;H:\项目\BGSS\sortsout\缺失的dll\opencv\2143\include\2413\opencv2;$(IncludePath)</IncludePath>
+    <IncludePath>F:\tmp\new-libtorch\libtorch-win-shared-with-deps-debug-131-gpu\include;H:\项目\BGSS\sortsout\缺失的dll\opencv\2143\include\2413;H:\项目\BGSS\sortsout\缺失的dll\opencv\2143\include\2413\opencv;H:\项目\BGSS\sortsout\缺失的dll\opencv\2143\include\2413\opencv2;F:\tmp\new-libtorch\libtorch-win-shared-with-deps-debug-131-gpu\include\torch\csrc\api\include\torch;$(IncludePath)</IncludePath>
     <LibraryPath>F:\tmp\new-libtorch\libtorch-win-shared-with-deps-debug-131-gpu\lib;H:\项目\BGSS\sortsout\缺失的dll\opencv\2143\x64\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -117,6 +117,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
